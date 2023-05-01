@@ -1,0 +1,20 @@
+//for installing the command netstat
+# yum install net-tools     [On CentOS/RHEL]
+# apt install net-tools     [On Debian/Ubuntu]
+# zypper install net-tools  [On OpenSuse]
+# pacman -S net-tools       [On Arch Linux]
+
+//for checking user's network stats
+tuugii@allmights-virtualbox: $ netstat -a
+
+//for checking user's TCP and UDP network stats
+tuugii@allmights-virtualbox: $ netstat -atu
+
+//for checking user's listening network stats
+tuugii@allmights-virtualbox: $ netstat -l
+
+//for checking user's network routing table
+tuugii@allmights-virtualbox: $ netstat -nr
+
+//for checking user's sum of network statistics
+tuugii@allmights-virtualbox: $ netstat -s
